@@ -1,5 +1,5 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+// import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
@@ -10,17 +10,17 @@ import { useSelector } from 'react-redux';
 import "./NavBar.css"
 import icon from "../src/images/perfume.png"
 import Badge from '@material-ui/core/Badge';
-const useStyles = makeStyles((theme) => ({
-  root: {
-    '& > *': {
-      margin: theme.spacing(1),
-    },
-  },
-}));
+// const useStyles = makeStyles((theme) => ({
+//   root: {
+//     '& > *': {
+//       margin: theme.spacing(1),
+//     },
+//   },
+// }));
 
 
 export default function NavBar() {
-  const classes = useStyles();
+  // const classes = useStyles();
  const products = useSelector((state: ProductsItem[]) => state)
  const total = products.reduce((prev, item) =>  prev + item.price * item.quantity,0)
 

@@ -1,7 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Divider } from '@material-ui/core'
-import React, { Fragment } from 'react'
-import { Button, Tooltip } from 'react-bootstrap'
 import icon from "../../images/perfume.png"
 import "./Footer.css"
 export default function Footer() {

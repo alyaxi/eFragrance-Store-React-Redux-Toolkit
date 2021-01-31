@@ -4,7 +4,7 @@ import { ProductsItem } from "../../store/store";
 import Empty from "./EmptyCardComp/Empty";
 import "./Carts.css";
 import CartTable from "./CartTable";
-import { Button, Fade, Grid } from "@material-ui/core";
+import { Button, Grid } from "@material-ui/core";
 import PaymentIcon from "@material-ui/icons/Payment";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import { Link } from "react-router-dom";

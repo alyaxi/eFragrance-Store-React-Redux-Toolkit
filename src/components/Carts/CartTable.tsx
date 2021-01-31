@@ -18,9 +18,9 @@ import { ProductsItem } from "../../store/store";
 import "./Carts.css";
 import { add, clear, remove, store } from "../../store/AppSlice";
 import { Theme, createStyles } from "@material-ui/core/styles";
-import Modal from "@material-ui/core/Modal";
-import Backdrop from "@material-ui/core/Backdrop";
-import Fade from "@material-ui/core/Fade";
+// import Modal from "@material-ui/core/Modal";
+// import Backdrop from "@material-ui/core/Backdrop";
+// import Fade from "@material-ui/core/Fade";
 import DeleteIcon from "@material-ui/icons/Delete";
 import { Button } from "react-bootstrap";
 import { Dialog } from "@material-ui/core";
@@ -57,6 +57,7 @@ const useRowStyles = makeStyles({
 });
 
 export default function CartTable() {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const classes1 = useStyles();
   const [modal1, setModal1] = React.useState(false);
   const toggle1 = () => {

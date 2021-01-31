@@ -1,13 +1,13 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
+// import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { ProductsItem } from '../../../store/store';
+// import { ProductsItem } from '../../../store/store';
 import "./empty.css";
 
 
 export default function Empty() {
-    const Products = useSelector((state: ProductsItem[]) => state);
-    const total = Products.reduce((prev, item) =>  prev + item.price * item.quantity,0)
+    // const Products = useSelector((state: ProductsItem[]) => state);
+    // const total = Products.reduce((prev, item) =>  prev + item.price * item.quantity,0)
     return (
         <div className="container-fluid mt-100">
         <div className="row">
